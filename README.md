@@ -2,9 +2,9 @@
 Arduino Http
 ========
 
-Using Arduino One to make a led blink with 1s of interval, we capture when the led
+Using Arduino UNO to make a led blink with 1s of interval, we capture when the led
 has logic level high and send this data to usb port. So with python we stay monitoring the same port were arduino send the data and every time the signal arrives we make a request to a server.
-The server is a simple expression (js) http server running on port 5000 and it has a single route to recive the signal from python script.
+The server is a simple express(js) http server running on port 5000 and it has a single route to recive the signal from python script.
 
 
 ## Arduino  
